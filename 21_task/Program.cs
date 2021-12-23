@@ -30,9 +30,9 @@ namespace _21_task
 
         public static void gardener_2()
         {
-            for (int i = length - 1; i > 0; i--)
+            for (int i = length - 1; i >= 0; i--)
             {
-                for (int j = width - 1; j > 0; j--)
+                for (int j = width - 1; j >= 0; j--)
                 {
                     if (garden[j, i] == 0 )
                     {
